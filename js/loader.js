@@ -3,8 +3,7 @@
    ***Instructions on how to create templates and add them into your html files***
 
    1. Create your html file inside the `templates` folder. This is a template so you do not need DOCTYPE, <html>,
-      <head>, or <body> tags. Simply create a <script type="text/x-handlebars-template"> tag and give it an id. You
-      will need this id in order to load the template.
+      <head>, or <body> tags. Simply write the html code you want to append.
    2. Add to the provided data.json file, or create a new one if desired. Follow standard JSON formatting.
    3. In your main html file, e.g. `index.html`, include a <script src="js/loader.js"> tag. You will need two more
       attributes to complete this tag.
